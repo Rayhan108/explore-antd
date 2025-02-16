@@ -16,8 +16,8 @@ const Navbar = () => {
 
   const menuItems = [
     { key: "1", label: <Link href="/">Home</Link> },
-    { key: "2", label: <Link href="/about">About</Link> },
-    { key: "3", label: <Link href="/services">Services</Link> },
+    { key: "2", label: <Link href="">About</Link> },
+    { key: "3", label: <Link href="">Services</Link> },
     { key: "4", label: <Link href="/contact">Contact</Link> },
   ];
 
