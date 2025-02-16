@@ -1,0 +1,61 @@
+.footer {
+    background: #001529;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin: 8px 0;
+  }
+  
+  .links a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .links a:hover {
+    color: #1890ff;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 24px;
+  }
+  
+  .socialIcons a {
+    color: #080808;
+    transition: color 0.3s;
+  }
+  
+  .socialIcons a:hover {
+    color: #1890ff;
+  }
+  
+  .divider {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .copyright {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  

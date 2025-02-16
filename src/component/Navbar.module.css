@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #001529; /* Ant Design Dark Blue */
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menuButton {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+    .menuButton {
+      display: block;
+    }
+  }
+  
